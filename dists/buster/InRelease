@@ -1,33 +1,33 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: ssff.github.io/debian
-Label: ssff.github.io/debian
+Origin: ssffnet.github.io/debian
+Label: ssffnet.github.io/debian
 Codename: buster
-Date: Tue, 07 Apr 2020 00:36:25 UTC
+Date: Tue, 07 Apr 2020 05:21:43 UTC
 Architectures: amd64
 Components: main
 Description: Personal repository
 MD5Sum:
- 21be80713ea6c95bb9fbdf6535261c87 1868 main/binary-amd64/Packages
- f9c11fee918703a10ff4d1e0e038626b 1064 main/binary-amd64/Packages.gz
+ b91c2c592d9c183be60c4b188f35737c 5786 main/binary-amd64/Packages
+ 4f32b94f233008a55677995ab0888fdf 1935 main/binary-amd64/Packages.gz
  6251dd5f74d23f0d92a7378e153029aa 128 main/binary-amd64/Release
 SHA1:
- c0c294130c5bdb24db277c4bd9c2b885161b2c79 1868 main/binary-amd64/Packages
- f77a456ce9fada4383febc94e1d2a1b2ccf60ec3 1064 main/binary-amd64/Packages.gz
+ 95b5313b2a33f5d5e19cd6fbe739c493c6b9847e 5786 main/binary-amd64/Packages
+ 8f15aed0bac470a5cdd4874b248a5caf1b461cbb 1935 main/binary-amd64/Packages.gz
  2ea0dc944111b6d8090c2eaab84cd66aac572f76 128 main/binary-amd64/Release
 SHA256:
- 2cf70d4552a72a66e1ffeb51013dd5272bd0e4aa40d76ba969127a64064ed527 1868 main/binary-amd64/Packages
- 420fd5214531276b8568fb07656baada850e866dcb7d31e4f2695323f848a0e5 1064 main/binary-amd64/Packages.gz
+ 0af14644057f5eaa70e7e59d2383c8a9f0f483766cc6b914bd8d5aa1e6f1cdb2 5786 main/binary-amd64/Packages
+ 84e666fc927a02b62978f722b7ae513e0824ea83cf7525bd2bfe4ae486094137 1935 main/binary-amd64/Packages.gz
  5f406e0c3f05776104f1142df56a9f48bc282310ec840bbb6439c1a11a934ac8 128 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQEcBAEBCAAGBQJei8sKAAoJELRol2cUONGsHkEH/A7+Gp/7J3AAHU7OV6BEsQlm
-QQ0ofJks38nVPkeZuM/6FUik//U6neQmoskbEQhQFknus6G47sNYbfmAtlhW4qUh
-82gV4OpOlbYzKL29DqFB9PQNeXPiihHSYi9s8imvMXcTy870kb5PkTBMNvVN4P1P
-INaa1FV9NZu0fqsFUmFDH5e4e+GAFsQER3nOsyitxkrOeI4rS1C4+pPId17CkMz/
-TRkJ5AMGHVtkQO52FnzN4+agnFItt4NKO2t3VJLdt7EMDe+Ajl2NJvhle9ku3kGB
-2QEXFgJla+j5fiY/fnd3CfcIXhz7TEy6MhYkBJ9jE3VhI7GPbWzy3wQcjn+uF2Q=
-=3xx5
+iQEcBAEBCAAGBQJejA3nAAoJELRol2cUONGsVocH/AhUUHH9o5kX2ltNm/YO2chx
+nX1lo5uGz1LrzQgDFfLu1fpMc05Q2ctJ21ZsU0TUPtEq+NAOhxzcPb2aMb6tuF1/
+sV4cCtVLoDBIAwpkPfxSjFSAey5jFfwdde/nCOr5q/V89eEH/TZ3XNjqOQJSp5bC
+RF7UKvUKbhXc6gYjdakv1bRs9RlLukCZesK3hp1NLFM7YPq9O6DBF53LpQ0GQEcU
+yUNPrSfA5QPn4Rzta3VLYmsERrFxJx39y4Hn7FR0D58XGF7z89xAWoX7/kzrBHAR
+batN30PiL9BHwh6+0rOaJl9fUFbM3ATo5i/a8c3uMxMmYsOpiPvpOAUi/+83BDw=
+=pusv
 -----END PGP SIGNATURE-----

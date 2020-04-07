@@ -42,3 +42,89 @@ Description: secure shell (SSH) client, for secure access to remote machines
  ssh replaces the insecure rsh, rcp and rlogin programs, which are
  obsolete for most purposes.
 
+Package: openssh-server
+Source: openssh
+Version: 1:7.9p1-10pqc1
+Architecture: amd64
+Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Installed-Size: 19540
+Depends: adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.9p1-10pqc1), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.0), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)
+Recommends: default-logind | logind | libpam-systemd, ncurses-term, xauth
+Suggests: molly-guard, monkeysphere, rssh, ssh-askpass, ufw
+Conflicts: sftp, ssh-socks, ssh2
+Replaces: openssh-client (<< 1:7.9p1-8), ssh, ssh-krb5
+Provides: ssh-server
+Multi-Arch: foreign
+Homepage: http://www.openssh.com/
+Priority: optional
+Section: net
+Filename: pool/main/o/openssh/openssh-server_7.9p1-10pqc1_amd64.deb
+Size: 15980884
+SHA256: ad23a1193261de00d9098486958166e07fa2a1c8be0b23b85a1fc4d4c38cd7f1
+SHA1: 43a1656b69fbc5b967f41f98d9161b1f3b0c7a37
+MD5sum: c276f7b2681443abf7c3e7553d162c13
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of
+ the Secure Shell protocol as specified by the IETF secsh working
+ group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine
+ and for executing commands on a remote machine.
+ It provides secure encrypted communications between two untrusted
+ hosts over an insecure network. X11 connections and arbitrary TCP/IP
+ ports can also be forwarded over the secure channel.
+ It can be used to provide applications with a secure communication
+ channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+ .
+ sshd replaces the insecure rshd program, which is obsolete for most
+ purposes.
+
+Package: openssh-sftp-server
+Source: openssh
+Version: 1:7.9p1-10pqc1
+Architecture: amd64
+Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Installed-Size: 118
+Depends: openssh-client (= 1:7.9p1-10pqc1), libc6 (>= 2.17)
+Recommends: openssh-server | ssh-server
+Enhances: openssh-server, ssh-server
+Breaks: openssh-server (<< 1:6.5p1-5)
+Replaces: openssh-server (<< 1:6.5p1-5)
+Homepage: http://www.openssh.com/
+Priority: optional
+Section: net
+Filename: pool/main/o/openssh/openssh-sftp-server_7.9p1-10pqc1_amd64.deb
+Size: 43958
+SHA256: e2658c5a32577197a98d5cf8e2f868d43917ea846128b7b2c0dc438286e88ff9
+SHA1: 597cea12c982eac4d225e638fde65ce8cc97efda
+MD5sum: d7305413c9374a84582cda6bfd56af2f
+Description: secure shell (SSH) sftp server module, for SFTP access from remote machines
+ This is the portable version of OpenSSH, a free implementation of
+ the Secure Shell protocol as specified by the IETF secsh working
+ group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine
+ and for executing commands on a remote machine.
+ It provides secure encrypted communications between two untrusted
+ hosts over an insecure network. X11 connections and arbitrary TCP/IP
+ ports can also be forwarded over the secure channel.
+ It can be used to provide applications with a secure communication
+ channel.
+ .
+ This package provides the SFTP server module for the SSH server. It
+ is needed if you want to access your SSH server with SFTP. The SFTP
+ server module also works with other SSH daemons like dropbear.
+ .
+ OpenSSH's sftp and sftp-server implement revision 3 of the SSH filexfer
+ protocol described in:
+ .
+  http://www.openssh.com/txt/draft-ietf-secsh-filexfer-02.txt
+ .
+ Newer versions of the draft will not be supported, though some features
+ are individually implemented as extensions.
+
