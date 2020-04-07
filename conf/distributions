@@ -1,5 +1,5 @@
-Origin: ssff.github.io/debian
-Label: ssff.github.io/debian
+Origin: ssffnet.github.io/debian
+Label: ssffnet.github.io/debian
 Codename: buster
 Architectures: amd64
 Components: main
